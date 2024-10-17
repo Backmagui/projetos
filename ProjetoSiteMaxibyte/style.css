@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: 100px;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    /* gap: 100px; */
+   align-items:end;
+    background-color: red;
+}

@@ -7,13 +7,42 @@
     display: flex;
     justify-content: space-between;
     background-color: blue;
-    height: 100px;
-    align-items: center;
+    align-items:center;
+    height:5vh;
 }
 
 .info{
+    width: 30%;
+    height: 100%;
     display: flex;
-    /* gap: 100px; */
-   align-items:end;
+    justify-content: space-between;
+    align-items:center;
     background-color: red;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    background-color: purple;
+}
+
+footer{
+    background-color: blue;
+    display: flex;
+    
+    justify-content: center;
+    
+    width: 100%;
+}
+
+.contact{
+    background-color: brown;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

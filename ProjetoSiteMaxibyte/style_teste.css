@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border: solid black 1px;
+}
+.list{
+    background-color: #ececec;
+    width: max-content;
+    height: max-content;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+ padding: 30px;
+}  
+
+.info{
+    width: 700px;
+    height:auto;
+    padding: 30px;
+    background-color: #142d4c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    gap: 100px;
+}

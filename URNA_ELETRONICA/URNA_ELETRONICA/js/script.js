@@ -52,9 +52,9 @@ function atualizaInterface(){
         let fotosHTML = '';
         for(let i in candidato.fotos){
             if(candidato.fotos[i].small) {
-                fotosHTML += '<div class="d-1-image small"> <img src="Images/'+candidato.fotos[i].url+'" alt="" />'+candidato.fotos[i].legenda+'</div>';
+                fotosHTML += '<div class="d-1-image small"> <img src="Images/'+candidato.fotos[i].url+'" alt="" /></div>';
             }else {
-                fotosHTML += '<div class="d-1-image"> <img src="Images/'+candidato.fotos[i].url+'" alt="" />'+candidato.fotos[i].legenda+'</div>';
+                fotosHTML += '<div class="d-1-image"> <img src="Images/'+candidato.fotos[i].url+'" alt="" /></div>';
             }
         }
 
@@ -159,7 +159,7 @@ function confirma() {
             // Aguarda 2 segundos antes de ir para a próxima etapa
             setTimeout(comecarEtapa, 2000);
         } else {
-            if (votos.length === 5) {
+            if (votos.length === 32) {
                 imprimirResultado();
                 document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>';
             } else {
